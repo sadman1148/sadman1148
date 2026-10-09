@@ -2,7 +2,7 @@
 
 <a href="https://r3denvy.github.io"><img src="matrix-banner.svg" alt="Sadman Alam Reshad" width="100%"/></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Archivo&weight=600&size=20&duration=2800&pause=900&color=2A7158&center=true&vCenter=true&width=560&lines=Flutter+developer+and+technical+lead;Native+Android+and+iOS+underneath;Building+secure+systems+for+the+Bangladesh+Army" alt="Multiplatform Developer and Technical Lead"/>
+<img src="https://readme-typing-svg.demolab.com?font=Archivo&weight=600&size=20&duration=2800&pause=900&color=2A7158&center=true&vCenter=true&width=560&lines=Multi-platform+Developer+and+Technical+Lead;Native+Android+and+iOS;Building+secure+systems+for+the+Bangladesh+Army" alt="Multi-platform Developer and Technical Lead"/>
 
 <br/>
 
