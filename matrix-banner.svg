@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Sadman Alam Reshad">
+  <title>Sadman Alam Reshad</title>
+  <style>
+    .glyph{font-family:"SFMono-Regular",Menlo,Consolas,"Liberation Mono","Courier New",monospace;font-weight:700}
+    .front{font-size:15px}
+    .back{font-size:11px;opacity:.35}
+    .rain{animation-name:fall;animation-timing-function:linear;animation-iteration-count:infinite}
+    @keyframes fall{from{transform:translateY(-240px)}to{transform:translateY(250px)}}
+    .name{font-family:"SFMono-Regular",Menlo,Consolas,"Liberation Mono","Courier New",monospace;font-weight:700;font-size:40px;fill:#D9FFE9;letter-spacing:1px}
+    .cursor{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.rain,.cursor{animation:none}}
+  </style>
+  <defs>
+    <clipPath id="clip"><rect width="1000" height="240" rx="18"/></clipPath>
+    <linearGradient id="tail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E3528" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#1F7A52" stop-opacity=".75"/>
+      <stop offset=".9" stop-color="#3FD68A"/>
+      <stop offset="1" stop-color="#E6FFF0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04110C"/>
+      <stop offset=".22" stop-color="#04110C" stop-opacity="0"/>
+      <stop offset=".78" stop-color="#04110C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04110C"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <text id="s1" class="glyph" fill="url(#tail)"><tspan x="0" y="0">1</tspan><tspan x="0" dy="16">০</tspan><tspan x="0" dy="16">{</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">৭</tspan><tspan x="0" dy="16">;</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">λ</tspan><tspan x="0" dy="16">৩</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">}</tspan><tspan x="0" dy="16">১</tspan><tspan x="0" dy="16">=</tspan><tspan x="0" dy="16">1</tspan></text>
+    <text id="s2" class="glyph" fill="url(#tail)"><tspan x="0" y="0">৫</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">&lt;</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">/</tspan><tspan x="0" dy="16">৮</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">&gt;</tspan><tspan x="0" dy="16">২</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">#</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">৯</tspan><tspan x="0" dy="16">0</tspan></text>
+    <text id="s3" class="glyph" fill="url(#tail)"><tspan x="0" y="0">}</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">৪</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">=</tspan><tspan x="0" dy="16">১</tspan><tspan x="0" dy="16">λ</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">;</tspan><tspan x="0" dy="16">৬</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">{</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">৩</tspan></text>
+    <text id="s4" class="glyph" fill="url(#tail)"><tspan x="0" y="0">0</tspan><tspan x="0" dy="16">২</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">*</tspan><tspan x="0" dy="16">০</tspan><tspan x="0" dy="16">&lt;</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">৭</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">/</tspan><tspan x="0" dy="16">৫</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">&gt;</tspan><tspan x="0" dy="16">1</tspan></text>
+    <text id="s5" class="glyph" fill="url(#tail)"><tspan x="0" y="0">৯</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">;</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">৬</tspan><tspan x="0" dy="16">{</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">০</tspan><tspan x="0" dy="16">#</tspan><tspan x="0" dy="16">0</tspan><tspan x="0" dy="16">৮</tspan><tspan x="0" dy="16">}</tspan><tspan x="0" dy="16">1</tspan><tspan x="0" dy="16">0</tspan></text>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="240" fill="#04110C"/>
+
+    <!-- back layer: smaller, dimmer, slower -->
+    <use href="#s4" x="24" class="rain back" style="animation-duration:8.4s;animation-delay:-1.5s"/>
+    <use href="#s2" x="49" class="rain back" style="animation-duration:9.6s;animation-delay:-6.2s"/>
+    <use href="#s5" x="74" class="rain back" style="animation-duration:7.8s;animation-delay:-3.4s"/>
+    <use href="#s1" x="99" class="rain back" style="animation-duration:10.2s;animation-delay:-8.1s"/>
+    <use href="#s3" x="124" class="rain back" style="animation-duration:9s;animation-delay:-4.7s"/>
+    <use href="#s4" x="149" class="rain back" style="animation-duration:8.8s;animation-delay:-2.6s"/>
+    <use href="#s2" x="174" class="rain back" style="animation-duration:8.4s;animation-delay:-7.3s"/>
+    <use href="#s5" x="199" class="rain back" style="animation-duration:9.6s;animation-delay:-1.5s"/>
+    <use href="#s1" x="224" class="rain back" style="animation-duration:7.8s;animation-delay:-6.2s"/>
+    <use href="#s3" x="249" class="rain back" style="animation-duration:10.2s;animation-delay:-3.4s"/>
+    <use href="#s4" x="274" class="rain back" style="animation-duration:9s;animation-delay:-8.1s"/>
+    <use href="#s2" x="299" class="rain back" style="animation-duration:8.8s;animation-delay:-4.7s"/>
+    <use href="#s5" x="324" class="rain back" style="animation-duration:8.4s;animation-delay:-2.6s"/>
+    <use href="#s1" x="349" class="rain back" style="animation-duration:9.6s;animation-delay:-7.3s"/>
+    <use href="#s3" x="374" class="rain back" style="animation-duration:7.8s;animation-delay:-1.5s"/>
+    <use href="#s4" x="399" class="rain back" style="animation-duration:10.2s;animation-delay:-6.2s"/>
+    <use href="#s2" x="424" class="rain back" style="animation-duration:9s;animation-delay:-3.4s"/>
+    <use href="#s5" x="449" class="rain back" style="animation-duration:8.8s;animation-delay:-8.1s"/>
+    <use href="#s1" x="474" class="rain back" style="animation-duration:8.4s;animation-delay:-4.7s"/>
+    <use href="#s3" x="499" class="rain back" style="animation-duration:9.6s;animation-delay:-2.6s"/>
+    <use href="#s4" x="524" class="rain back" style="animation-duration:7.8s;animation-delay:-7.3s"/>
+    <use href="#s2" x="549" class="rain back" style="animation-duration:10.2s;animation-delay:-1.5s"/>
+    <use href="#s5" x="574" class="rain back" style="animation-duration:9s;animation-delay:-6.2s"/>
+    <use href="#s1" x="599" class="rain back" style="animation-duration:8.8s;animation-delay:-3.4s"/>
+    <use href="#s3" x="624" class="rain back" style="animation-duration:8.4s;animation-delay:-8.1s"/>
+    <use href="#s4" x="649" class="rain back" style="animation-duration:9.6s;animation-delay:-4.7s"/>
+    <use href="#s2" x="674" class="rain back" style="animation-duration:7.8s;animation-delay:-2.6s"/>
+    <use href="#s5" x="699" class="rain back" style="animation-duration:10.2s;animation-delay:-7.3s"/>
+    <use href="#s1" x="724" class="rain back" style="animation-duration:9s;animation-delay:-1.5s"/>
+    <use href="#s3" x="749" class="rain back" style="animation-duration:8.8s;animation-delay:-6.2s"/>
+    <use href="#s4" x="774" class="rain back" style="animation-duration:8.4s;animation-delay:-3.4s"/>
+    <use href="#s2" x="799" class="rain back" style="animation-duration:9.6s;animation-delay:-8.1s"/>
+    <use href="#s5" x="824" class="rain back" style="animation-duration:7.8s;animation-delay:-4.7s"/>
+    <use href="#s1" x="849" class="rain back" style="animation-duration:10.2s;animation-delay:-2.6s"/>
+    <use href="#s3" x="874" class="rain back" style="animation-duration:9s;animation-delay:-7.3s"/>
+    <use href="#s4" x="899" class="rain back" style="animation-duration:8.8s;animation-delay:-1.5s"/>
+    <use href="#s2" x="924" class="rain back" style="animation-duration:8.4s;animation-delay:-6.2s"/>
+    <use href="#s5" x="949" class="rain back" style="animation-duration:9.6s;animation-delay:-3.4s"/>
+    <use href="#s1" x="974" class="rain back" style="animation-duration:7.8s;animation-delay:-8.1s"/>
+    <use href="#s3" x="999" class="rain back" style="animation-duration:10.2s;animation-delay:-4.7s"/>
+
+    <!-- front layer -->
+    <use href="#s1" x="12" class="rain front" style="animation-duration:4.2s;animation-delay:-0.4s"/>
+    <use href="#s3" x="37" class="rain front" style="animation-duration:5.6s;animation-delay:-2.8s"/>
+    <use href="#s5" x="62" class="rain front" style="animation-duration:3.6s;animation-delay:-1.6s"/>
+    <use href="#s2" x="87" class="rain front" style="animation-duration:6.4s;animation-delay:-4.1s"/>
+    <use href="#s4" x="112" class="rain front" style="animation-duration:4.8s;animation-delay:-3.3s"/>
+    <use href="#s1" x="137" class="rain front" style="animation-duration:5.2s;animation-delay:-0.9s"/>
+    <use href="#s3" x="162" class="rain front" style="animation-duration:3.9s;animation-delay:-5.2s"/>
+    <use href="#s5" x="187" class="rain front" style="animation-duration:6s;animation-delay:-2.2s"/>
+    <use href="#s2" x="212" class="rain front" style="animation-duration:4.2s;animation-delay:-1.1s"/>
+    <use href="#s4" x="237" class="rain front" style="animation-duration:5.6s;animation-delay:-3.8s"/>
+    <use href="#s1" x="262" class="rain front" style="animation-duration:3.6s;animation-delay:-4.6s"/>
+    <use href="#s3" x="287" class="rain front" style="animation-duration:6.4s;animation-delay:-0.4s"/>
+    <use href="#s5" x="312" class="rain front" style="animation-duration:4.8s;animation-delay:-2.8s"/>
+    <use href="#s2" x="337" class="rain front" style="animation-duration:5.2s;animation-delay:-1.6s"/>
+    <use href="#s4" x="362" class="rain front" style="animation-duration:3.9s;animation-delay:-4.1s"/>
+    <use href="#s1" x="387" class="rain front" style="animation-duration:6s;animation-delay:-3.3s"/>
+    <use href="#s3" x="412" class="rain front" style="animation-duration:4.2s;animation-delay:-0.9s"/>
+    <use href="#s5" x="437" class="rain front" style="animation-duration:5.6s;animation-delay:-5.2s"/>
+    <use href="#s2" x="462" class="rain front" style="animation-duration:3.6s;animation-delay:-2.2s"/>
+    <use href="#s4" x="487" class="rain front" style="animation-duration:6.4s;animation-delay:-1.1s"/>
+    <use href="#s1" x="512" class="rain front" style="animation-duration:4.8s;animation-delay:-3.8s"/>
+    <use href="#s3" x="537" class="rain front" style="animation-duration:5.2s;animation-delay:-4.6s"/>
+    <use href="#s5" x="562" class="rain front" style="animation-duration:3.9s;animation-delay:-0.4s"/>
+    <use href="#s2" x="587" class="rain front" style="animation-duration:6s;animation-delay:-2.8s"/>
+    <use href="#s4" x="612" class="rain front" style="animation-duration:4.2s;animation-delay:-1.6s"/>
+    <use href="#s1" x="637" class="rain front" style="animation-duration:5.6s;animation-delay:-4.1s"/>
+    <use href="#s3" x="662" class="rain front" style="animation-duration:3.6s;animation-delay:-3.3s"/>
+    <use href="#s5" x="687" class="rain front" style="animation-duration:6.4s;animation-delay:-0.9s"/>
+    <use href="#s2" x="712" class="rain front" style="animation-duration:4.8s;animation-delay:-5.2s"/>
+    <use href="#s4" x="737" class="rain front" style="animation-duration:5.2s;animation-delay:-2.2s"/>
+    <use href="#s1" x="762" class="rain front" style="animation-duration:3.9s;animation-delay:-1.1s"/>
+    <use href="#s3" x="787" class="rain front" style="animation-duration:6s;animation-delay:-3.8s"/>
+    <use href="#s5" x="812" class="rain front" style="animation-duration:4.2s;animation-delay:-4.6s"/>
+    <use href="#s2" x="837" class="rain front" style="animation-duration:5.6s;animation-delay:-0.4s"/>
+    <use href="#s4" x="862" class="rain front" style="animation-duration:3.6s;animation-delay:-2.8s"/>
+    <use href="#s1" x="887" class="rain front" style="animation-duration:6.4s;animation-delay:-1.6s"/>
+    <use href="#s3" x="912" class="rain front" style="animation-duration:4.8s;animation-delay:-4.1s"/>
+    <use href="#s5" x="937" class="rain front" style="animation-duration:5.2s;animation-delay:-3.3s"/>
+    <use href="#s2" x="962" class="rain front" style="animation-duration:3.9s;animation-delay:-0.9s"/>
+    <use href="#s4" x="987" class="rain front" style="animation-duration:6s;animation-delay:-5.2s"/>
+
+    <!-- soft fade at top and bottom edges -->
+    <rect width="1000" height="240" fill="url(#fade)"/>
+
+    <!-- name panel -->
+    <rect x="230" y="80" width="540" height="80" rx="12" fill="#04110C" fill-opacity=".86" stroke="#2A7158" stroke-width="1.5"/>
+    <text x="500" y="133" text-anchor="middle" class="name" filter="url(#glow)">Sadman Alam Reshad<tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
