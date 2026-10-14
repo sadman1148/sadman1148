@@ -38,13 +38,7 @@ I build cross-platform apps in Flutter and the native code beneath them. I start
 - **[Pocketalk](https://www.pocketalk.com/)** (native Android): the translation app and software for six translation devices, on [Google Play](https://play.google.com/store/apps/details?id=com.pocketalk.android.pt.translation) and the [App Store](https://apps.apple.com/gb/app/pocketalk-translation-app/id1611714517)
 
 <div align="center">
-
 <br/>
-
 <img src="https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" alt="Cat"/>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=sadman1148&style=flat-square&color=2A7158" alt="Profile views"/>
 
 </div>
